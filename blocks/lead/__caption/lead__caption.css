@@ -1,0 +1,24 @@
+.lead__caption {
+  background-image: url(../../../images/plus.png);
+  width: 150px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  border-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px;
+  justify-self: end;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__caption {
+    width: 336px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__caption {
+    width: 100%;
+    max-width: 282px;
+  }
+}

@@ -1,0 +1,19 @@
+.lead {
+  width: 100%;
+  max-width: 880px;
+  height: 120px;
+  margin: 0 0 51px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 1023px) {
+  .lead {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 0;
+    margin: 0 19px;
+    gap: 22px;
+  }
+}

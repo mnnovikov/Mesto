@@ -1,0 +1,23 @@
+.footer {
+  width: 880px;
+  max-width: 880px;
+  height: 18px;
+  margin: 92px 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {      
+  .footer {
+    width: calc(100vw - 38px);
+    max-width: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    width: calc(100vw - 38px);
+    height: 100%;
+    margin: 48px auto 36px;
+  }
+}

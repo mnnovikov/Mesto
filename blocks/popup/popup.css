@@ -1,0 +1,10 @@
+.popup.popup_opened {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: block;
+}
+
+.popup {
+  display: none;
+}

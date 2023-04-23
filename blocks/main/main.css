@@ -1,0 +1,14 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 92px;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main {
+    gap: 36px;
+  }
+}

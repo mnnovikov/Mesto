@@ -1,0 +1,7 @@
+.photo-grid__element {
+  width: 282px;
+  height: 361px;
+  display: grid;
+  overflow: hidden;
+  border-radius: 5%;
+}

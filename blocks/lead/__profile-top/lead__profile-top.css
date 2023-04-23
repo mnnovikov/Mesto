@@ -1,0 +1,13 @@
+.lead__profile-top {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1023px) {
+  .lead__profile-top {
+    justify-content: center;
+  }
+}

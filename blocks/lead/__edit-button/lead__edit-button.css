@@ -1,0 +1,25 @@
+.lead__edit-button {
+  background-image: url(../../../images/pen.svg);
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  border: 1px solid #FFFFFF;
+  border-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+}
+
+.lead__edit-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__edit-button {
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    background-size: 7.5px;
+  }
+}

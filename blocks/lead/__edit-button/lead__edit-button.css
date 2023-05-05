@@ -1,5 +1,6 @@
 .lead__edit-button {
   background-image: url(../../../images/pen.svg);
+  background-color: #000;
   width: 24px;
   height: 24px;
   flex: 0 0 24px;
@@ -8,6 +9,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 10px;
+  box-sizing: border-box;
 }
 
 .lead__edit-button:hover {

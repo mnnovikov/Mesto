@@ -12,73 +12,57 @@
     </header>
     <main class="main">
       <section class="lead">
-        <div class="lead__imege-container">
-          <img class="lead__image" src="./images/kusto.png" alt="Жак-Ив Кусто">
-        </div>
+        <img class="lead__image" src="./images/kusto.png" alt="Жак-Ив Кусто">
         <div class="lead__profile-info">
           <div class="lead__profile-top">
-            <h2 class="lead__title">Жак-Ив Кусто</h2>
-            <div class="lead__edit-button"></div>
+            <h1 class="lead__title">Жак-Ив Кусто</h1>
+            <button type="button" class="lead__edit-button"></button>
           </div>
-          <h2 class="lead__subtitle">Исследователь океана</h2>
+          <p class="lead__subtitle">Исследователь океана</p>
         </div>
-        <div class="lead__caption-container">
-          <div class="lead__caption"></div>
-        </div>
+          <button type="button" class="lead__caption"></button>
       </section>
       <section class="photo-grid">
         <div class="photo-grid__element">
-          <div class="photo-grid__picture">
             <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="окно">
-          </div>
           <div class="photo-grid__footer">
             <h2 class="photo-grid__title">Окно</h2>
-            <div class="photo-grid__button"></div>
+            <button type="button" class="photo-grid__button"></button>
           </div>
         </div>
         <div class="photo-grid__element">
-          <div class="photo-grid__picture">
             <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Уллу-Тау">
-          </div>
           <div class="photo-grid__footer">
             <h2 class="photo-grid__title">Уллу-Тау</h2>
-            <div class="photo-grid__button"></div>
+            <button type="button" class="photo-grid__button"></button>
           </div>
         </div>
         <div class="photo-grid__element">
-          <div class="photo-grid__picture">
             <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="туман">
-          </div>
           <div class="photo-grid__footer">
             <h2 class="photo-grid__title">Туман</h2>
-            <div class="photo-grid__button"></div>
+            <button type="button" class="photo-grid__button"></button>
           </div>
         </div>
        <div class="photo-grid__element">
-        <div class="photo-grid__picture">
           <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Сочи">
-        </div>
           <div class="photo-grid__footer">
             <h2 class="photo-grid__title">Сочи</h2>
-            <div class="photo-grid__button"></div>
+            <button type="button" class="photo-grid__button"></button>
           </div>
         </div>
         <div class="photo-grid__element">
-          <div class="photo-grid__picture">
             <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="лёд">
-          </div>
           <div class="photo-grid__footer">
             <h2 class="photo-grid__title">Лёд</h2>
-            <div class="photo-grid__button"></div>
+            <button type="button" class="photo-grid__button"></button>
           </div>
         </div>
         <div class="photo-grid__element">
-          <div class="photo-grid__picture">
             <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="пляж">
-          </div>
           <div class="photo-grid__footer">
             <h2 class="photo-grid__title">Пляж</h2>
-            <div class="photo-grid__button"></div>
+            <button type="button" class="photo-grid__button"></button>
           </div>
         </div>
       </section>
@@ -87,14 +71,14 @@
       <p class="footer__copyright">© 2020. Mesto Russia</p>
     </footer>
     <div class="popup">
-      <div class="popup__bg popup__close"></div>
-      <div class="popup__container">
-        <div class="popup__button-close popup__close"></div>
-        <h1 class="popup__info-title">Редактировать профиль</h1>
-        <input class="popup__input popup__input-name" value="Жак-Ив Кусто" type="text">
-        <input class="popup__input popup__input-job" value="Исследователь океана" type="text">
-        <button class="popup__button">Сохранить</button>
-      </div>
+      <div class="popup__bg"></div>
+      <form class="popup__container">
+        <button type="button" class="popup__button-close"></button>
+        <h2 class="popup__info-title">Редактировать профиль</h2>
+        <input class="popup__input popup__input_type_name" name="Имя" type="text">
+        <input class="popup__input popup__input_type_job" name="Профессия" type="text">
+        <button type="submit" class="popup__button">Сохранить</button>
+      </form>
     </div>
     <script src="script.js"></script>
 </body>

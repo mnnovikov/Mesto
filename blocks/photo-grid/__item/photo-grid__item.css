@@ -7,17 +7,17 @@
 .photo-grid__item:hover {
   transform: scale(1.02);
 }
-
+/* 
 @media screen and (min-width: 768px) and (max-width: 1023px) {  
   .photo-grid__item {
     width: calc((100vw - 64px) / 2);
     height: calc((75vw - 64px) / 2);
   }
-}
-
+} */
+/* 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .photo-grid__item {
     width: calc(100vw - 32px);
     height: calc(75vw - 32px);
   }
-}
+} */

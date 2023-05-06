@@ -1,10 +1,8 @@
-.popup.popup_opened {
+.popup {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  display: block;
-}
-
-.popup {
   display: none;
+  align-items: center;
+  justify-content: center;
 }

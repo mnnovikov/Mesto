@@ -1,0 +1,16 @@
+.footer__table {
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__table {
+    grid-template-columns: 0;
+    grid-template-rows: repeat(5, min-content);
+    gap: 32px;
+  }
+}

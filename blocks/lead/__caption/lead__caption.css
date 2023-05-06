@@ -1,18 +1,26 @@
 .lead__caption {
-  background-image: url(../../../images/plus.png);
+  background-image: url(../../../images/plus.svg);
   width: 150px;
   height: 50px;
+  margin: 0 0 0 auto;
   border: 2px solid #FFFFFF;
-  border-color: white;
+  box-sizing: border-box;
+  background-color: #000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 22px;
   justify-self: end;
 }
 
+.lead__caption:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__caption {
     width: 336px;
+    margin: 0;
   }
 }
 
@@ -20,5 +28,7 @@
   .lead__caption {
     width: 100%;
     max-width: 282px;
+    margin: 0;
+    background-size: 16px;
   }
 }

@@ -9,13 +9,13 @@ let openModalButton = document.querySelector('.lead__edit-button'),
   closeModalButton = document.querySelectorAll('.popup__button-close');
 
 function openModal() {
-  modal.classList.add('popup__opened');
+  modal.classList.add('popup_opened');
   nameImput.value = showName.textContent;
   jobImput.value = showJob.textContent;
 }
 
 function closeModal() {
-  modal.classList.remove('popup__opened');
+  modal.classList.remove('popup_opened');
 }
 
 function saveModal(event) {

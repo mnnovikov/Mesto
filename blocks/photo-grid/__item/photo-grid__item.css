@@ -1,6 +1,5 @@
 .photo-grid__item {
   width: 282px;
-  height: 282px;
   transition: transform 0.2s ease-in;
 }
 

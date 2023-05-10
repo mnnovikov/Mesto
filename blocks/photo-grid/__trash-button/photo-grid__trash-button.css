@@ -1,0 +1,18 @@
+.photo-grid__trash-button {
+  background-image: url(../../../images/trash.svg);
+  background-color: hsl(0deg 0% 0% / 0%);
+  border: none;
+  width: 18px;
+  height: 19px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.photo-grid__trash-button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
